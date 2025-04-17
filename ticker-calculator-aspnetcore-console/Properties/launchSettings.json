@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ticker-calculator-aspnetcore-console": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

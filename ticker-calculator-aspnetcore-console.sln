@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ticker-calculator-aspnetcore-console", "ticker-calculator-aspnetcore-console\ticker-calculator-aspnetcore-console.csproj", "{6FC371AE-9C21-4D89-BD52-D3080E181591}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ticker-calculator-aspnetcore-tests", "ticker-calculator-aspnetcore-tests\ticker-calculator-aspnetcore-tests.csproj", "{307F020B-DF6A-4751-9E20-CDCEB1CCEB85}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens de Solução", "{5D069284-0541-49AC-AA0A-AF3807AC2BEF}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FC371AE-9C21-4D89-BD52-D3080E181591}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FC371AE-9C21-4D89-BD52-D3080E181591}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FC371AE-9C21-4D89-BD52-D3080E181591}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FC371AE-9C21-4D89-BD52-D3080E181591}.Release|Any CPU.Build.0 = Release|Any CPU
+		{307F020B-DF6A-4751-9E20-CDCEB1CCEB85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{307F020B-DF6A-4751-9E20-CDCEB1CCEB85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{307F020B-DF6A-4751-9E20-CDCEB1CCEB85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{307F020B-DF6A-4751-9E20-CDCEB1CCEB85}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A93E9B7-B2C6-4703-8DB3-7927086F212D}
+	EndGlobalSection
+EndGlobal
