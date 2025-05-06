@@ -39,5 +39,15 @@ namespace ticker_calculator_aspnetcore_tests
             // Act & Assert
             Assert.Throws<ArgumentException>(() => _service.CalculateTotalPrice(request));
         }
+
+        [Fact]
+        public void CalculateTotalPrice_NegativeAge_ThrowsException()
+        {
+            // Arrange
+            var request = new TicketRequest { Age = -5, Quantity = 1 };
+
+            // Act & Assert
+            Assert.Throws<ArgumentException>(() => _service.CalculateTotalPrice(request));
+        }
     }
 }

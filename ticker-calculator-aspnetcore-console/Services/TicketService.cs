@@ -12,6 +12,9 @@ namespace ticker_calculator_aspnetcore_console.Services
             if (request.Quantity < 1 || request.Quantity > MaxTicketsPerPerson)
                 throw new ArgumentException("Quantidade inválida de bilhetes. Máximo permitido é 5.");
 
+            if (request.Age < 0)
+                throw new ArgumentException("A idade não pode ser negativa.");
+
             var price = GetTicketPriceByAge(request.Age);
             return price * request.Quantity;
         }
